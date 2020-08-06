@@ -26,7 +26,7 @@ vertical-align: baseline;
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:;
+    border: 1px solid;
   }
   html{
     font-size:62.5%;
@@ -45,7 +45,7 @@ h1,h3{
   padding: 2%; 
   width: 25%;
   margin:0 auto;
-  display: inline-block;
+
 }
 link{text-align: center;}
 button{display: inline-block;
@@ -64,10 +64,10 @@ color: linen;}
     object-fit: cover;
    border-radius: 50%;
    border: outset peru;
-    width:25%;
-  display:inline-block;
+    width:35%;
   margin-left:1%;
   transition: 2s;
+
 }
 .head-img:hover{opacity: .5;}
 
@@ -122,7 +122,27 @@ border: outset palegoldenrod;
 border-top: inset;
 border-bottom:none;}
 
-
+.top-img{
+    display: inline-block;
+    
+}
+.top-text{
+    display: inline-block;
+    
+}
+.big{
+    display: inline-block;
+    width: 100%;
+    font-size: 7rem;
+    transition: 3s;
+}
+.big:hover{color: powderblue;
+}
+.med{ display: inline-block;
+  margin: 50 50%;
+    width: 25%%;
+    font-size: 3rem;
+}
 
 
 
